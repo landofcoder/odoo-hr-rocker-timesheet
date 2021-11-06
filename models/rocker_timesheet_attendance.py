@@ -29,9 +29,9 @@ import logging
 _logger = logging.getLogger(__name__)
 
 class RockerTask(models.Model):
-    _name = 'rocker.task'
+    _name = 'rocker.attendance'
     _auto = False
-    _description = 'Search panel - list of Projects and Tasks'
+    _description = 'Search panel - list of Attendance Check in / Out Time sheet'
 
     @api.model
     def _domain_project_id(self):
